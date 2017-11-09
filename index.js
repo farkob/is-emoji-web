@@ -1,4 +1,4 @@
-var lines = require('./emoji-data-short.json');
+var lines = require('emojis-list');
 
 var firstChars = {};
 
