@@ -13,4 +13,11 @@ describe('is-emoji', function() {
     assert(isEmoji.isFirstCharCode('🌻'[0].charCodeAt(0)));
     assert(!isEmoji.isFirstCharCode('a'[0].charCodeAt(0)));
   });
+
+  it('should return all emoji count', function() {
+    assert(isEmoji.getAllEmojiCount('😁😂😃😄') === 4);
+    assert(isEmoji.getAllEmojiCount('😁😂😃a😄') === -1);
+    assert(isEmoji.getAllEmojiCount('a') === -1);
+    assert(isEmoji.getAllEmojiCount('') === -1);
+  });
 });
