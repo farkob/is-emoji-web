@@ -1,6 +1,6 @@
 {
-  "name": "is-emoji",
-  "version": "0.1.1",
+  "name": "is-emoji-web",
+  "version": "0.1.2",
   "description": "Simple module to testing emoji characters",
   "main": "index.js",
   "scripts": {
@@ -8,19 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smurthas/is-emoji.git"
+    "url": "git@github.com:farkob/is-emoji.git"
   },
   "keywords": [
     "emoji",
     "text",
     "string"
   ],
-  "author": "Simon Murtha Smith <simon@murtha-smith.com>",
+  "author": "Faruk Can Bilir <farkob@gmail.com>",
+  "contributors": ["Simon Murtha Smith <simon@murtha-smith.com>"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/smurthas/is-emoji/issues"
+    "url": "https://github.com/farkob/is-emoji/issues"
   },
-  "homepage": "https://github.com/smurthas/is-emoji",
+  "homepage": "https://github.com/farkob/is-emoji",
   "devDependencies": {
     "istanbul": "^0.3.0",
     "mocha": "^1.21.4"
